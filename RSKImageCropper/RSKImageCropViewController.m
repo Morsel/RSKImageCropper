@@ -104,7 +104,7 @@ static const CGFloat kLandscapeCancelAndChooseButtonsVerticalMargin = 12.0f;
         self.automaticallyAdjustsScrollViewInsets = NO;
     }
     
-    self.view.backgroundColor = [UIColor blackColor];
+    self.view.backgroundColor = [UIColor darkGrayColor];
     self.view.clipsToBounds = YES;
     
     self.originalStatusBarHidden = [UIApplication sharedApplication].statusBarHidden;
